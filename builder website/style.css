@@ -1,0 +1,335 @@
+html {
+  scroll-behavior: smooth;
+}
+.logo {
+  position: absolute;
+  top: 0;
+  left: 13%;
+}
+
+.logo-text {
+      font-size: 24px; 
+      /* font-weight: bold;  */
+      position: absolute;
+      top: 0;
+      left: 60px; 
+      display: inline-block;
+      text-indent: 25PX;
+      color: white;
+    }
+    
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .nav-item .nav-link {
+    color: white !important;
+    font-size: 20px;
+    text-decoration: none; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  }
+  
+  .nav-item .nav-link:hover {
+    text-decoration: underline; 
+  }
+  
+  .header h1 {
+    color: white;
+  }
+  
+  body.background-image {
+    background-image: url("./bg.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh; 
+    margin: 0;
+  }
+  
+  .container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 20px;
+    margin:20px;
+  }
+  .card {
+    background-color: #fff;
+    border-radius:  0 4px 8px;
+    padding: 20px;
+    max-width: 300px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    border: none;
+}
+
+.card:hover {
+  box-shadow: 0px 4px 8px 0px rgb(0, 0, 0); 
+}
+
+.icon {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.content {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.read-more-btn {
+    background:linear-gradient(to right, #08a9df, #fc6449);
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.center-button {
+  text-align: center;
+}
+
+.blue-button {
+  background:linear-gradient(to right, #08a9df, #fc6449 );
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border: none;
+        border-radius: 10px;
+ 
+}
+
+.col-md-4 {
+  padding: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+}
+
+.col-md-4 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.project-title {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+.project-description {
+  font-size: 14px;
+  color: #777;
+}
+
+.section-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section-content {
+  font-size: 14px;
+  color: #555;
+}
+
+.category-buttons,.category-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; 
+  margin: 20px 0;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  color: #333; 
+  white-space: nowrap;
+}
+
+.category-button.active {
+  border: none;
+  background:linear-gradient(to right, #08a9df, #fc6449);
+  color: #fff;
+}
+
+.col-sm-12 {
+  margin: 20px;
+}
+.testimonial-box {
+        background-color: #333; 
+        color: #fff; 
+        padding: 20px;
+        border-radius: 10px;
+        width: 50%;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #dee2e6;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .testimonial-text {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .testimonial-author {
+        font-size: 14px;
+        text-align: right;
+    }
+    .blockquote {
+      background-color: #333; /* Dark background */
+      color: #fff; /* Light text */
+    }
+    
+    button {
+      background-color: transparent;
+      border: none;
+      color: #fff; /* Light arrow color */
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+      background-color: black;
+      border-radius: 50%;
+    }
+    .carousel-control-prev, .carousel-control-next {
+      width: 5%;
+    }
+    .carousel-indicators {
+      bottom: -30px;
+    }
+    body {
+      font-family: Arial, sans-serif;
+  }
+  .contact-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+  }
+  .form-group {
+      margin-bottom: 15px;
+  }
+  label {
+      display: block;
+      margin-bottom: 5px;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+  }
+  textarea {
+      height: 100px;
+  }
+  button {
+      padding: 10px 20px;
+      background:linear-gradient(to right, #08a9df, #fc6449);
+      color: white;
+      border: none;
+      border-radius: 5px;
+  }
+  
+  .section-container{
+    font-family: Arial, sans-serif;
+    background: url('background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.contact-container {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./assets/contact.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+.contact-info {
+    padding: 20px;
+}
+
+.contact-info h1 {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 30px;
+}
+
+.contact-info ul {
+    padding: 0;
+}
+
+.contact-info ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contact-info ul li i {
+    font-size: 1.5rem;
+}
+
+.contact-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+
+.contact-form .form-control {
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    border-radius: 5px;
+    cursor: pointer;
+}
